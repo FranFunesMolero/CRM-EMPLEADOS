@@ -1,0 +1,20 @@
+<div class="container mt-5">
+  <div class="card shadow p-4">
+    <form [formGroup]="loginForm" (ngSubmit)="getDataLogin()">
+      <div class="my-2">
+        <label class="form-label" for="email">Email</label>
+        <input class="form-control" type="text" id="email" placeholder="introduce tu email" formControlName="email">
+      </div>
+
+      <div class="my-2">
+        <label class="form-label" for="password"></label>
+        <input class="form-control" type="password" id="password" placeholder="introduce el password"
+          formControlName="password">
+      </div>
+
+      <input type="submit" class="btn btn-danger" value="Login">
+
+
+    </form>
+  </div>
+</div>

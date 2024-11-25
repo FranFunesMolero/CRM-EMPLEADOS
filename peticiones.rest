@@ -1,0 +1,13 @@
+###
+POST https://crm-empleados.onrender.com/api/usuarios/login
+Content-Type: application/json
+
+{
+  "email": "jj@gmail.com",
+  "password": "12345"
+}
+
+###
+GET https://crm-empleados.onrender.com/api/empleados
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjZkNWY2MDZkNGFmNmM4NzIzMDJkZjk4IiwidXNlcl9yb2xlIjoicmVndWxhciIsImlhdCI6MTczMTQxNzczOH0.B6i2oB0c-GRs-wTPZBuq4chLAzcZsheLn33ddFOmsiw
